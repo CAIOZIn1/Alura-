@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap');
+
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter Tight';
+    --botao-efeito: #3b8cee;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+}
+
+.assinatura {
+    margin: 0 6em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+picture+button {
+    width: 516px;
+    height: 56px;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    border: 1px solid var(--branco-principal);
+    background-color: transparent;
+    color: var(--branco-principal);
+    border-radius: 5px;
+    width: 512px;
+    height: 56px;
+}
+
+span p {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.secundario {
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-plataformas {
+    margin: 0 8em;
+    width: 60%;
+}
+
+h2 {
+    padding: 0 1.7em;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+
+h2+p {
+    padding: 0 5em;
+    color: var(--cinza-secundario);
+}
+
+.container__sobre-combom{
+    padding: 100px;
+}
+
+.container_texto{
+    color: var(--cinza-secundario);
+}
+
+.terceiro-botao {
+    height: 56px;
+    width: 162.685px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: var(--botao-azul);
+    color: var(--fonte-principal);
+    margin-top:  2em;
+}
+
+.imagem-telas{
+    margin: 0 8em;
+}
+
+.imagem-notebook{
+    margin: 0 8em
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--fonte-principal) ;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.logo__rodape{
+    margin: 5em 0;
+
+}
+
+.lista_rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.lista__link{
+    margin: 0 1em;
+    transition: 500ms;
+}
+
+.lista__link:hover{
+    text-decoration: underline;
+    font-size: 17px;
+    opacity: .7;
+    
+}
+
+.copyright{
+    font-size: 14px;
+    margin: 2em 0;
+    color: var(--cinza-secundario);
+}
+
+button{
+    transition: 500ms;
+}
+
+button:hover{
+    transform: scale(1.08);
+    background-color: var(--botao-efeito);
+}
+
+img{
+    transition: 500ms;
+}
+
+img:hover{
+    opacity: 0.7;
+}
